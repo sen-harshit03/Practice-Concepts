@@ -16,4 +16,14 @@ public class Example2 {
             return 20;
         }
     }
+
+    private static int m2() {
+        try {
+            throw new RuntimeException();
+        } catch (RuntimeException e) {
+            System.out.println(":(");
+        } finally {
+            return 99;
+        }
+    }
 }
