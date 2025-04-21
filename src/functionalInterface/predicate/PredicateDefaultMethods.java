@@ -1,6 +1,8 @@
 package functionalInterface.predicate;
 
+import java.util.List;
 import java.util.function.Predicate;
+import java.util.stream.Stream;
 
 /**
  * Predicate has two default methods
@@ -15,5 +17,16 @@ public class PredicateDefaultMethods {
 
         System.out.println(notPredicate.test("")); // false
         System.out.println(notPredicate.test("not empty")); // true
+
+
+//        List<String> names = List.of("Anuj", "Aryan");
+//        names.stream()  // Stream<String>
+//                .map(String::length) // (str) -> str.length;  Stream<Integer>
+//                .forEach(System.out::println);
+
+
+
+
     }
+
 }

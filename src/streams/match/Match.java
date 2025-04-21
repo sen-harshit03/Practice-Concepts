@@ -2,6 +2,7 @@ package streams.match;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 /**
  * anyMatch: Upon first match, no further elements will be processed
@@ -21,6 +22,7 @@ public class Match {
             System.out.println(n);  // 1 false
             return n % 2 == 0;
         });
+
 
 
         boolean noneMatch = list.stream().noneMatch(n -> {

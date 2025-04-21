@@ -28,6 +28,5 @@ public class Demo {
         c3.accept(strings);
 
         System.out.println(strings);
-
     }
 }

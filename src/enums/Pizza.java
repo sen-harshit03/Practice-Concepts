@@ -2,7 +2,7 @@ package enums;
 
 public enum Pizza {
     SMALL,             // public static final Pizza SMALL = new Pizza();
-    MEDIUM(10),  // calling parameterized constructor   public static final Pizza MEDIUM = new Pizza();
+    MEDIUM(10),  // calling parameterized constructor   public static final Pizza MEDIUM = new Pizza(10);
     LARGE;            // calling no-param constructor      public static final Pizza LARGE = new Pizza();
 
     private int slices;

@@ -1,5 +1,8 @@
 package anonymousblock;
 
+/**
+ *  Static blocks -> Anonymous block -> Constructor
+ */
 public class Demo {
 
     final String name;

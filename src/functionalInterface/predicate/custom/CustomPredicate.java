@@ -9,7 +9,8 @@ public interface CustomPredicate<T> {
     boolean test(T t);
 
     default CustomPredicate<T> negate() {
-        return  t -> !this.test(t);
+//        return  t -> !this.test(t);
+        return  (T t) -> !this.test(t);
     }
 
     default CustomPredicate<T> and(CustomPredicate<T> after) {

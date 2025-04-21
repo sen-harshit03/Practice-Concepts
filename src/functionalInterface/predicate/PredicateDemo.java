@@ -3,6 +3,12 @@ package functionalInterface.predicate;
 import java.util.function.Predicate;
 
 /**
+ * Java 8
+ * Interface: Abstraction, default and static method
+ * FunctionalInterface: SAM - Single Abstract Method,
+ */
+
+/**
  * Takes the generic type for the Parameter, and returns the boolean
  * Method name: test(T t)
  */
